@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a[title]
+        {
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        } 
+        a[target]
+        {
+           color: pink;
+        }
+        a[href="https://www.amazon.com/"]
+        {
+        background-color:red;
+        }
+
+     a[href*="mo"]
+     {
+        background-color:grey;
+     }
+
+    </style>
+</head>
+<body>
+    
+    <a href="DemoCominator.html" target="_self" >click here</a> <br>
+
+    <a href="https://www.google.com/"  title="doc1">click here googlw</a> <br>
+    <a href="https://www.amazon.com/" >click here amz</a><br>
+    <a href="Demo.html">demo.html</a>
+</body>
+</html>
